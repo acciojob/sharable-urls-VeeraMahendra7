@@ -1,9 +1,8 @@
 // your code here
-let form = document.getElementById('myForm');
+let btn = document.getElementById('button');
 let h3 = document.getElementById('url');
 
-form.addEventListener('submit', (e) => {
-	e.preventDefault();
+btn.addEventListener('click', () => {
 
 	let input1 = document.getElementById('name').value.trim();
 	let input2 = document.getElementById('year').value.trim();
