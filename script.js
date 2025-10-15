@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
 	let input2 = document.getElementById('year').value.trim();
 	
 	const baseURL = 'https://localhost:8080/';
-	const query = `?name=${encodeURIComponent(name)}&year=${encodeURIComponent(year)}`;
+	const query = `?name=${encodeURIComponent(input1)}&year=${encodeURIComponent(input2)}`;
 	h3.textContent = baseURL + query; 
 	
 });
