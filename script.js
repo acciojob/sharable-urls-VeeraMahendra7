@@ -2,7 +2,8 @@
 let btn = document.getElementById('button');
 let h3 = document.getElementById('url');
 
-btn.addEventListener('click', () => {
+btn.addEventListener('click', (e) => {
+	e.preventDefault();
 
 	let input1 = document.getElementById('name').value.trim();
 	let input2 = document.getElementById('year').value.trim();
